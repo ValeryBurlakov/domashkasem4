@@ -1,0 +1,15 @@
+C:\geekbrains\domashkasem4\25zadacha\obj\Debug\net6.0\25zadacha.csproj.AssemblyReference.cache
+C:\geekbrains\domashkasem4\25zadacha\obj\Debug\net6.0\25zadacha.GeneratedMSBuildEditorConfig.editorconfig
+C:\geekbrains\domashkasem4\25zadacha\obj\Debug\net6.0\25zadacha.AssemblyInfoInputs.cache
+C:\geekbrains\domashkasem4\25zadacha\obj\Debug\net6.0\25zadacha.AssemblyInfo.cs
+C:\geekbrains\domashkasem4\25zadacha\obj\Debug\net6.0\25zadacha.csproj.CoreCompileInputs.cache
+C:\geekbrains\domashkasem4\25zadacha\bin\Debug\net6.0\25zadacha.exe
+C:\geekbrains\domashkasem4\25zadacha\bin\Debug\net6.0\25zadacha.deps.json
+C:\geekbrains\domashkasem4\25zadacha\bin\Debug\net6.0\25zadacha.runtimeconfig.json
+C:\geekbrains\domashkasem4\25zadacha\bin\Debug\net6.0\25zadacha.dll
+C:\geekbrains\domashkasem4\25zadacha\bin\Debug\net6.0\25zadacha.pdb
+C:\geekbrains\domashkasem4\25zadacha\obj\Debug\net6.0\25zadacha.dll
+C:\geekbrains\domashkasem4\25zadacha\obj\Debug\net6.0\refint\25zadacha.dll
+C:\geekbrains\domashkasem4\25zadacha\obj\Debug\net6.0\25zadacha.pdb
+C:\geekbrains\domashkasem4\25zadacha\obj\Debug\net6.0\25zadacha.genruntimeconfig.cache
+C:\geekbrains\domashkasem4\25zadacha\obj\Debug\net6.0\ref\25zadacha.dll
