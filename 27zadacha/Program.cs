@@ -5,10 +5,10 @@
 // 9012 -> 12
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
-int sum = 0;
-while (number > 0)
+int number1 = 0;
+for (int i = 0; number > 0; i++)
 {
-    sum = (sum + number) % 10;
+    number1 = (number % 10) + number1;
     number = number / 10;
 }
-Console.WriteLine(sum);
+Console.WriteLine($"Сумма цифр в числе равна: {number1}");

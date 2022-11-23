@@ -1,0 +1,15 @@
+C:\geekbrains\domashkasem4\252729allinone\obj\Debug\net6.0\252729allinone.csproj.AssemblyReference.cache
+C:\geekbrains\domashkasem4\252729allinone\obj\Debug\net6.0\252729allinone.GeneratedMSBuildEditorConfig.editorconfig
+C:\geekbrains\domashkasem4\252729allinone\obj\Debug\net6.0\252729allinone.AssemblyInfoInputs.cache
+C:\geekbrains\domashkasem4\252729allinone\obj\Debug\net6.0\252729allinone.AssemblyInfo.cs
+C:\geekbrains\domashkasem4\252729allinone\obj\Debug\net6.0\252729allinone.csproj.CoreCompileInputs.cache
+C:\geekbrains\domashkasem4\252729allinone\bin\Debug\net6.0\252729allinone.exe
+C:\geekbrains\domashkasem4\252729allinone\bin\Debug\net6.0\252729allinone.deps.json
+C:\geekbrains\domashkasem4\252729allinone\bin\Debug\net6.0\252729allinone.runtimeconfig.json
+C:\geekbrains\domashkasem4\252729allinone\bin\Debug\net6.0\252729allinone.dll
+C:\geekbrains\domashkasem4\252729allinone\bin\Debug\net6.0\252729allinone.pdb
+C:\geekbrains\domashkasem4\252729allinone\obj\Debug\net6.0\252729allinone.dll
+C:\geekbrains\domashkasem4\252729allinone\obj\Debug\net6.0\refint\252729allinone.dll
+C:\geekbrains\domashkasem4\252729allinone\obj\Debug\net6.0\252729allinone.pdb
+C:\geekbrains\domashkasem4\252729allinone\obj\Debug\net6.0\252729allinone.genruntimeconfig.cache
+C:\geekbrains\domashkasem4\252729allinone\obj\Debug\net6.0\ref\252729allinone.dll
