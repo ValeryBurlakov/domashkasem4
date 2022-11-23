@@ -2,7 +2,7 @@
 int numbzad = Convert.ToInt32(Console.ReadLine());
 if (numbzad == 25 || numbzad == 27 || numbzad == 29)
 {
-if (numbzad == 25)
+if (numbzad == 25)// 25 задача
 {
 Console.WriteLine("Введите число, которое хотите возвести в степень: ");
 int A = Convert.ToInt32(Console.ReadLine());
@@ -15,11 +15,13 @@ for (int i = 1; i < B; i++)
 }
 Console.WriteLine($"{numbA} в {B} степени равно: {A}");
 }
-if (numbzad == 27)
+if (numbzad == 27) // 27 задача
 {
 Console.WriteLine("Введите число, а мы покажем сумму его цифр:");
 int number = Convert.ToInt32(Console.ReadLine());
 int number1 = 0;
+if (number > 0)
+{
 for (int i = 0; number > 0; i++)
 {
     number1 = (number % 10) + number1;
@@ -27,9 +29,30 @@ for (int i = 0; number > 0; i++)
 }
 Console.WriteLine($"Сумма цифр в числе равна: {number1}");
 }
-
-if (numbzad == 29)
+else
 {
+    Console.WriteLine("я не делал с отрицательными числами, перезапустите программу");
+}
+}
+
+if (numbzad == 29) // 29 задача
+{
+//     Console.WriteLine("Введите длину массива: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int[] array = new int[number];
+
+// for (int i = 0; i < array.Length; i++)
+// {
+//     int index = i + 1;
+//     Console.Write($"Введите {index} элемент массива с индексом {i}: ");
+//     array[i] = Convert.ToInt32(Console.ReadLine());
+// }
+// // Console.Write('[' + string.Join(", ", array) + "]");
+// Console.WriteLine();
+
+// рандомное количество элементов массива и рандомные элементы в нём, 
+// для ручного ввода раскоментить 40-51 и 120. Закоментить 56-65 и 115-119 и 122 строчки:
+
   void FillArray(int[] collection)// рандомный метод
 {
     int lenght = collection.Length;
@@ -88,16 +111,19 @@ void SelectionSortMax(int[] array)
     }
 
 }
-// для ввода с клавиатуры закоменти 2 строчки ниже
+// для ввода с клавиатуры закоменти 115-119 122 раскоменти 120
 int t = new Random().Next(2, 20); // Создали рандомное количество элементов массива
 int[] array = new int[t];// вместо t можно определить самому количество элементов в массиве
 
 FillArray(array);//метод, который заполнил массив
 Console.Write("ваш рандомнозаполненый рандомный массив: ");
+// Console.Write("ваш массив: ");
 PrintArray(array);
+Console.WriteLine($"Количество элементов в вашем массиве равно: {array.Length}");
 SelectionSortMin(array);
 Console.Write("ваш отсортированный массив от меньшего к большему: ");
 PrintArray(array);
+
 SelectionSortMax(array);
 Console.Write("ваш отсортированный массив от большего к меньшему: ");
 PrintArray(array);

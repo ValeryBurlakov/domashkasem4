@@ -26,32 +26,32 @@
 // 3. Решение. Ввод  длины массива и каждого его элемента вручную (либо всё рандомно) 
 // и последующая его сортировка. Не знаю как ещё можно усложнить себе задачу:
 
-// Console.WriteLine("Введите длину массива: ");
-// int number = Convert.ToInt32(Console.ReadLine());
-// int[] array = new int[number];
+Console.WriteLine("Введите длину массива: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int[] array = new int[number];
 
-// for (int i = 0; i < array.Length; i++)
-// {
-//     int index = i + 1;
-//     Console.Write($"Введите {index} элемент массива с индексом {i}: ");
-//     array[i] = Convert.ToInt32(Console.ReadLine());
-// }
-// // Console.Write('[' + string.Join(", ", array) + "]");
-// Console.WriteLine();
+for (int i = 0; i < array.Length; i++)
+{
+    int index = i + 1;
+    Console.Write($"Введите {index} элемент массива с индексом {i}: ");
+    array[i] = Convert.ToInt32(Console.ReadLine());
+}
+// Console.Write('[' + string.Join(", ", array) + "]");
+Console.WriteLine();
 
 // рандомное количество элементов массива и рандомные элементы в нём, 
-// для ручного ввода раскоментить 29-40 и закоментить 45-54 и 104-107 строчки:
+// для ручного ввода раскоментить 29-40 и 109. Закоментить 45-54 и 104-108 и 111 строчки и наоборот
 
-void FillArray(int[] collection)// рандомный метод
-{
-    int lenght = collection.Length;
-    int index = 0;
-    while (index < lenght)
-    {
-        collection[index] = new Random().Next(-99, 99); // рандомные элементы массива
-        index++;
-    }
-}
+// void FillArray(int[] collection)// рандомный метод
+// {
+//     int lenght = collection.Length;
+//     int index = 0;
+//     while (index < lenght)
+//     {
+//         collection[index] = new Random().Next(-99, 99); // рандомные элементы массива
+//         index++;
+//     }
+// }
 
 void PrintArray(int[] array)
 {
@@ -100,16 +100,19 @@ void SelectionSortMax(int[] array)
     }
 
 }
-// для ввода с клавиатуры закоменти 2 строчки ниже
-int t = new Random().Next(2, 20); // Создали рандомное количество элементов массива
-int[] array = new int[t];// вместо t можно определить самому количество элементов в массиве
+// для ввода с клавиатуры закоменти 104-108  строчки ниже
+// int t = new Random().Next(2, 20); // Создали рандомное количество элементов массива
+// int[] array = new int[t];// вместо t можно определить самому количество элементов в массиве
 
-FillArray(array);//метод, который заполнил массив
+// FillArray(array);//метод, который заполнил массив
+// Console.Write("ваш рандомнозаполненый рандомный массив: ");
 Console.Write("ваш массив: ");
 PrintArray(array);
+// Console.WriteLine($"Количество элементов в вашем массиве равно: {array.Length}");
 SelectionSortMin(array);
 Console.Write("ваш отсортированный массив от меньшего к большему: ");
 PrintArray(array);
+
 SelectionSortMax(array);
 Console.Write("ваш отсортированный массив от большего к меньшему: ");
 PrintArray(array);
