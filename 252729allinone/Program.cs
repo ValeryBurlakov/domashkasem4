@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите номер задачи(25, 27 или 29): ");
+﻿Console.WriteLine("Введите номер задачи(25, 27 или 29): "); // в этом коде совместил все 3 задачи
 int numbzad = Convert.ToInt32(Console.ReadLine());
 if (numbzad == 25 || numbzad == 27 || numbzad == 29)
 {
